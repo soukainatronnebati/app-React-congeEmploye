@@ -1,18 +1,22 @@
 import React from "react";
 import Accueil from "../Components/Accueil";
-import Calendar from "../Components/Calendar";
 import Footer from "../Components/Footer";
 import Header from "../Components/Header";
 import Menu from "../Components/Menu";
+import UserComponent from "../Components/UserComponent";
+import EmployeComponent from "../Components/EmployeComponent";
 
 const Home = () => {
   return (
     <div className="App">
-      <Calendar />
+      
+      
       <Header />
       <Accueil />
       <Menu />
       <Footer />
+      
+      
     </div>
   );
 };

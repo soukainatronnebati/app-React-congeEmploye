@@ -1,4 +1,7 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
+import "bootstrap/js/dist/base-component" 
+
 
 export default class 
 
@@ -6,7 +9,7 @@ extends Component {
   render() {
     return (
      <div>
-      
+     
   <nav className="pcoded-navbar">
     <div className="navbar-wrapper">
       <div className="navbar-brand header-logo">
@@ -25,10 +28,10 @@ extends Component {
             <a href="index.html" className="nav-link "><span className="pcoded-micon"><i className="feather icon-home" /></span><span className="pcoded-mtext">Dashboard</span></a>
           </li>
           <li data-username="Table bootstrap datatable footable" className="nav-item">
-            <a href="Calendar" className="nav-link "><span className="pcoded-micon"><i className="feather icon-server" /></span><span className="pcoded-mtext">Calendrier</span></a>
+            <Link to="Calendar" className="nav-link "><span className="pcoded-micon"><i className="feather icon-server" /></span><span className="pcoded-mtext">Calendrier</span></Link>
           </li>
           <li data-username="form elements advance componant validation masking wizard picker select" className="nav-item">
-            <a href="annuaire.html" className="nav-link "><span className="pcoded-micon"><i className="feather icon-file-text" /></span><span className="pcoded-mtext">Annuaire</span></a>
+            <Link to="Annuaire" className="nav-link "><span className="pcoded-micon"><i className="feather icon-file-text" /></span><span className="pcoded-mtext">Annuaire</span></Link>
           </li>
           <li data-username="Table bootstrap datatable footable" className="nav-item">
             <a href="tbl_bootstrap.html" className="nav-link "><span className="pcoded-micon"><i className="feather icon-server" /></span><span className="pcoded-mtext">WorkFlow</span></a>
@@ -36,7 +39,7 @@ extends Component {
          <div>
 </div>
           <li data-username="basic components Button Alert Badges breadcrumb Paggination progress Tooltip popovers Carousel Cards Collapse Tabs pills Modal Grid System Typography Extra Shadows Embeds" className="nav-item pcoded-hasmenu">
-            <a href="annuaire.html" className="nav-link "><span className="pcoded-micon"><i className="feather icon-box" /></span><span className="pcoded-mtext">Présence</span></a>
+            <a href="#" className="nav-link "><span className="pcoded-micon"><i className="feather icon-box" /></span><span className="pcoded-mtext">Présence</span></a>
             <ul className="pcoded-submenu">
               <li className><a href="bc_button.html" className>Button</a></li>
               <li className><a href="bc_badges.html" className>Badges</a></li>
@@ -87,7 +90,7 @@ extends Component {
             <a href="form_elements.html" className="nav-link "><span className="pcoded-micon"><i className="feather icon-file-text" /></span><span className="pcoded-mtext">Infos Entreprise</span></a>
           </li>
           <li data-username="form elements advance componant validation masking wizard picker select" className="nav-item">
-            <a href="/loginAdmin" className="nav-link "><span className="pcoded-micon"><i className="feather icon-file-text" /></span><span className="pcoded-mtext">Se Déconnecter</span></a>
+            <a href="auth-signin.html" className="nav-link "><span className="pcoded-micon"><i className="feather icon-file-text" /></span><span className="pcoded-mtext">Se Déconnecter</span></a>
           </li>
         
         </ul>
