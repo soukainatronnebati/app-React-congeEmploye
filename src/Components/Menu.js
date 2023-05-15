@@ -4,6 +4,12 @@ import "bootstrap/js/dist/base-component";
 const Menu = () => {
   return (
     <div>
+      <div className="loader-bg">
+  <div className="loader-track">
+    <div className="loader-fill" />
+  </div>
+</div>
+
       <nav className="pcoded-navbar">
         <div className="navbar-wrapper">
           <div className="navbar-brand header-logo">
@@ -52,15 +58,16 @@ const Menu = () => {
                   <span className="pcoded-mtext">Annuaire</span>
                 </Link> */}
               </li>
+             
               <li
                 data-username="Table bootstrap datatable footable"
                 className="nav-item"
               >
-                <a href="tbl_bootstrap.html" className="nav-link ">
+                <a href="ListEmploye.html" className="nav-link ">
                   <span className="pcoded-micon">
                     <i className="feather icon-server" />
                   </span>
-                  <span className="pcoded-mtext">WorkFlow</span>
+                  <span className="pcoded-mtext">Annuaire</span>
                 </a>
               </li>
               <div></div>
@@ -164,38 +171,78 @@ const Menu = () => {
                   </li>
                 </ul>
               </li>
+            
+              <li className="nav-item pcoded-menu-caption">
+                <label>Congés</label>
+              </li>
               <li
-                data-username="basic components Button Alert Badges breadcrumb Paggination progress Tooltip popovers Carousel Cards Collapse Tabs pills Modal Grid System Typography Extra Shadows Embeds"
-                className="nav-item pcoded-hasmenu"
+                data-username="Table bootstrap datatable footable"
+                className="nav-item"
               >
-                <a href="javascript:" className="nav-link ">
+                <a href="workflows.html" className="nav-link ">
                   <span className="pcoded-micon">
-                    <i className="feather icon-box" />
+                    <i className="feather icon-server" />
                   </span>
-                  <span className="pcoded-mtext">Congé</span>
+                  <span className="pcoded-mtext">Demander un congé</span>
                 </a>
-                <ul className="pcoded-submenu">
-                  <li className>
-                    <a href="bc_button.html" className>
-                      Button
-                    </a>
-                  </li>
-                  <li className>
-                    <a href="bc_badges.html" className>
-                      Badges
-                    </a>
-                  </li>
-                  <li className>
-                    <a href="bc_breadcrumb-pagination.html" className>
-                      Breadcrumb{" "}
-                    </a>
-                  </li>
-                  <li className>
-                    <a href="bc_collapse.html" className>
-                      Collapse
-                    </a>
-                  </li>
-                </ul>
+              </li>
+              <li
+                data-username="form elements advance componant validation masking wizard picker select"
+                className="nav-item"
+              >
+                <a href="form_elements.html" className="nav-link ">
+                  <span className="pcoded-micon">
+                    <i className="feather icon-file-text" />
+                  </span>
+                  <span className="pcoded-mtext">Suivre mes Congés</span>
+                </a>
+              </li>
+              <li
+                data-username="form elements advance componant validation masking wizard picker select"
+                className="nav-item"
+              >
+                <a href="auth-signin.html" className="nav-link ">
+                  <span className="pcoded-micon">
+                    <i className="feather icon-file-text" />
+                  </span>
+                  <span className="pcoded-mtext">Solde Congé</span>
+                </a>
+              </li>
+              <li className="nav-item pcoded-menu-caption">
+                <label>Workflows</label>
+              </li>
+              <li
+                data-username="Table bootstrap datatable footable"
+                className="nav-item"
+              >
+                <a href="workflows.html" className="nav-link ">
+                  <span className="pcoded-micon">
+                    <i className="feather icon-server" />
+                  </span>
+                  <span className="pcoded-mtext">Les workflows</span>
+                </a>
+              </li>
+              <li
+                data-username="form elements advance componant validation masking wizard picker select"
+                className="nav-item"
+              >
+                <a href="form_elements.html" className="nav-link ">
+                  <span className="pcoded-micon">
+                    <i className="feather icon-file-text" />
+                  </span>
+                  <span className="pcoded-mtext">Modéles</span>
+                </a>
+              </li>
+              <li
+                data-username="form elements advance componant validation masking wizard picker select"
+                className="nav-item"
+              >
+                <a href="auth-signin.html" className="nav-link ">
+                  <span className="pcoded-micon">
+                    <i className="feather icon-file-text" />
+                  </span>
+                  <span className="pcoded-mtext">Mes workflows</span>
+                </a>
               </li>
               <li className="nav-item pcoded-menu-caption">
                 <label>Paramétres</label>

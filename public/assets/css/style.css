@@ -85,6 +85,11 @@ h6 {
   font-weight: 400;
 }
 
+.required {
+  color: red;
+  margin-left: 5px;
+}
+
 h1 {
   font-size: 48px;
 }
